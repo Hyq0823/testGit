@@ -1,0 +1,25 @@
+公司简介（首页）
+|----初步设计，如图，展示企业logo、导航、大图轮播、合作企业的logo
+
+企业优势
+
+主营业务
+这块比较重要，按不同的系列，不同图片展示方式来展示。
+|-- 设计多种展示方式
+
+发展历程
+|---主要使用时间轴,按照时间先后，列出公司的荣誉资质、事迹等，可以放荣誉图片等。
+
+关于我们
+|--可以加一个百度地图在地图上标注公司的位置，添加一个公司logo在地图上。
+|--页面可以参个   
+|--http://www.zcool.com.cn/work/ZMTYwODM3NjQ=.html
+
+选取的组件，要注意和 移动设计的兼容。
+
+企业网站参考：
+http://demo.cssmoban.com/cssthemes4/amz_20_bfd/index.html
+
+
+网站背景动画：
+https://github.com/hustcc/canvas-nest.js
