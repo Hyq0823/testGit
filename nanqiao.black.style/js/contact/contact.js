@@ -7,7 +7,8 @@ var contact = (function(){
 
 			map.centerAndZoom(new BMap.Point(104.096904,30.622649), 13);  // 初始化地图,设置中心点坐标和地图级别
 			map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
-			map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+			//map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+			map.disableScrollWheelZoom()
 			var point = new BMap.Point(104.0364,30.644763);
 
 

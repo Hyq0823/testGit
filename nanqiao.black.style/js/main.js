@@ -1,5 +1,5 @@
 $(function(){
-    var time = 7;    //进度条时间，以秒为单位，越小越快
+    var time = 2;    //进度条时间，以秒为单位，越小越快
     var $progressBar, $bar, $elem, isPause, tick, percentTime;
  
     $('#owl-demo,#owl-demo3').owlCarousel({
@@ -24,6 +24,10 @@ $(function(){
         $bar = $('<div>',{
             id:'bar'
         });
+        console.log($progressBar);
+        console.log($bar);
+        console.log($elem[0].innerHTML);
+        console.log($elem.children());
         $progressBar.append($bar).insertAfter($elem.children().eq(0));
     }
  
